@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor:pointer;
+    background-color: #FFFDF1;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.menu{
+    text-align: center;
+    background-color: #F0F5F9 ;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+}
+
+.u1{
+    text-align: center;
+}
+
+li a:hover {
+    font-size: larger;
+    background-color:#F0F5F9;
+}
+
+nav {
+    font-size: 18 px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display:inline-block;
+    margin:15px;
+    padding: 15px;
+    width: 120px;
+}
+
+li a{
+    color: #000000;
+    display: block;
+    padding: 15px;
+    text-transform:capitalize;
+    text-decoration: none;
+    border-radius:  25% 10%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 60px;
+}
+
+h4{
+    display: flex;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(122 13 13 / 90%);
+}
+
+.description{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin:5px;
+}
+
+.general_block{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 5%;
+    color: #000000;
+}
+
+.block_1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.desc{
+    padding-bottom: 10px;
+    padding-right: 25px;
+    margin-left: 15px;
+    color: rgb(164, 168, 168);
+}
+
+.desc1{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+img{
+    transition: 0.6s;
+    color: #000000;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+span{
+    background-color: rgb(248, 255, 209);
+    border-radius: 20px;
+}
+
+button{
+    border-radius: 40px;
+    background-color: #000000;
+    color: #949090;
+    padding: 6px 25px 6px 25px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 20px;
+    border-color: #ffffff;
+}
+
+button:hover {
+    background-color: aliceblue;
+    transition: .6s;
+}
+
+.btn{
+    color: #000000;
+    display: block;
+    padding: 15px;
+    text-transform:capitalize;
+    text-decoration: none;
+    border-radius:  25% 10%;
+}
+
